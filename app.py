@@ -6,7 +6,8 @@ import pickle
 import nltk
 
 ps=PorterStemmer()
-
+nltk.download('punkt')
+nltk.download('stopwords')
 tfidf = pickle.load(open('vector.pkl','rb'))
 model = pickle.load(open('model.pkl','rb'))
 def transform_text(text):
