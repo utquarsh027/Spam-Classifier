@@ -27,7 +27,7 @@ def transform_text(text):
     for i in text:
         y.append(ps.stem(i))
     return " ".join(y)
-st.header('Email/SMS Classifer')
+st.header('Email/SMS Classifier')
 
 input_sms=st.text_area(label=' ',placeholder="Enter your text here")
 
