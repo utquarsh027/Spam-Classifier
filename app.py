@@ -38,3 +38,5 @@ if st.button("Predict"):
         st.write('Spam')
     else:
         st.write('Not Spam')    
+import sys
+print(sys.executable)        
